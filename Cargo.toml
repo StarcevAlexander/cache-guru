@@ -1,0 +1,13 @@
+[package]
+name = "cacheguru"
+version = "0.1.0"
+edition = "2024"
+description = "Go-style TTL cache for Rust - thread-safe in-memory cache with expiry, LRU-style eviction and hit/miss stats, zero dependencies"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/StarcevAlexander/cacheguru"
+homepage = "https://github.com/StarcevAlexander/cacheguru"
+readme = "README.md"
+keywords = ["cache", "ttl", "memory", "lru", "concurrent"]
+categories = ["caching", "concurrency", "data-structures"]
+
+[dependencies]
