@@ -1,15 +1,15 @@
-> **DEPRECATED:** this crate has been renamed to [`cache-guru`](https://crates.io/crates/cache-guru). New code should depend on `cache-guru`.
-
-# cacheguru
+# cache-guru
 
 **Go-style TTL cache for Rust** — a thread-safe in-memory cache with expiry, FIFO eviction when capacity is set and hit/miss statistics. Zero dependencies.
+
+Formerly published on crates.io as `cacheguru`.
 
 For developers coming from Go's `go-cache` / `ristretto` or Node's `node-cache` who want a small, obvious cache without pulling a framework.
 
 ## Usage
 
 ```rust
-use cacheguru::Cache;
+use cache_guru::Cache;
 use std::time::Duration;
 
 fn main() {
